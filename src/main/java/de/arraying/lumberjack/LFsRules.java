@@ -15,14 +15,14 @@ public interface LFsRules {
 
     /**
      * The line limit per log.
-     * @return <= 0 for no line limit, otherwise the line limit.
+     * @return less than or equal to 0 for no line limit, otherwise the line limit.
      */
     int getLineLimit();
 
     /**
      * The time limit per log in milliseconds.
      * Time is started from the first log entry.
-     * @return  <= 0 for no time limit, otherwise the time limit.
+     * @return less than or equal to 0 for no time limit, otherwise the time limit.
      */
     long getTimeLimit();
 

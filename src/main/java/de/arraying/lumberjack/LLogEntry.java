@@ -7,7 +7,7 @@ public interface LLogEntry {
 
     /**
      * Gets the time in milliseconds when this entry was created.
-     * @return A > 0 long.
+     * @return A greater than 0 long.
      */
     long getTime();
 

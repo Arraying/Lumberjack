@@ -39,7 +39,7 @@ public interface LLogger {
     ListenableFuture<LLogEntry> info(String message, Object... format);
 
     /**
-     * Alias for {@link #log(LLogLevel, String, Object...)} with level {@link LLogLevel#WARN
+     * Alias for {@link #log(LLogLevel, String, Object...)} with level {@link LLogLevel#WARN}.
      */
     ListenableFuture<LLogEntry> warn(String message, Object... format);
 

@@ -29,3 +29,21 @@ It outputs the following.
 [19:11:22] [main] INFO: Hello world!
 ```
 Please note that the format is customisable.
+
+## Installation
+```xml
+<repositories>
+    <repository>
+    	<id>arraying-repo</id>
+    	<url>http://repo.arraying.de/repository/maven-releases</url>
+    </repository>
+</repositories>
+<dependencies>
+    <dependency>
+        <groupId>de.arraying</groupId>
+        <artifactId>lumberjack</artifactId>
+        <!-- Replace this with the latest version if applicable -->
+        <version>1.0.0</version>
+    </dependency>
+</dependencies>
+```
