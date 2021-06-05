@@ -34,8 +34,8 @@ Please note that the format is customisable.
 ```xml
 <repositories>
     <repository>
-    	<id>arraying-repo</id>
-    	<url>http://repo.arraying.de/repository/maven-releases</url>
+    	<id>arraying-releases</id>
+    	<url>http://repo.arraying.de/releases/</url>
     </repository>
 </repositories>
 <dependencies>
